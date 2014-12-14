@@ -110,9 +110,6 @@ stepsByDayMedian &lt;- median(stepsByDay)</code></pre>
 <h5>2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?</h5>
 <pre class="r"><code>mostSteps &lt;- which.max(averageStepsPerTimeBlock$meanSteps)
 timeMostSteps &lt;- gsub(&quot;([0-9]{1,2})([0-9]{2})&quot;, &quot;\\1:\\2&quot;, averageStepsPerTimeBlock[mostSteps,'interval'])</code></pre>
-<ul>
-<li>Most Steps at: 8:35</li>
-</ul>
 <hr />
 </div>
 </div>
